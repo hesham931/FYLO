@@ -173,6 +173,21 @@ img[alt = "stay"]{
     }
 }
 @media screen and (max-width:575px){
+    img[alt = "logo"]{
+        width:140px
+    }
+    .text_body button{
+        margin:auto auto auto 20%;
+    }
+    ._col_row .row >div{
+        margin:50px
+    }
+    .text_body h3, .text_body p, .col h3, .col p {
+         text-align: left; 
+    }
+    h1, h2, h3, h4, h5, h6 {
+        text-align: left;
+    }
     .col p {
         width: 200px
     }
@@ -187,7 +202,23 @@ img[alt = "stay"]{
         width:300px
     }
     .stay{
-        width:350px !important
+        width:200px !important
+    }
+    ._3-cards .row >div{
+        margin-left:130px;
+    }
+    .rectangle .p_h1_div p{
+        width:350px
+    }
+    .rectangle .p_h1_div h1{
+        width:420px
+    }
+    .input{
+        width:400px;
+        margin-right:0px
+    }
+    .rectangle{
+        width:490px !important
     }
 }
 @media screen and (max-width:616px){
@@ -212,7 +243,7 @@ img[alt = "stay"]{
 }
 @media screen and (max-width:750px){
     img[alt = "stay"]{
-        width:200px
+        width:150px
     }
 }
 @media screen and (max-width:767px){
