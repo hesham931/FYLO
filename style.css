@@ -50,12 +50,6 @@ img[alt = "image_body"]{
     margin:auto;
     margin-bottom:50px
 }
-@media screen and (max-width:770px){
-    img[alt = "image_body"]{
-        height:400px;
-        width:350px
-    }
-}
 ._col_row{
     margin-bottom:100px
 }
@@ -70,24 +64,6 @@ img[alt = "image_body"]{
     text-align: center;
     width:250px;
     border-radius: 50px
-}
-@media screen and (max-width:724px){
-    .text_body button{
-        margin:auto auto auto 30%;
-    }
-}
-img[alt = "stay"]{
-    width:300px
-}
-@media screen and (max-width:750px){
-    img[alt = "stay"]{
-        width:200px
-    }
-}
-@media screen and (max-width:650px){
-    img[alt = "stay"]{
-        width:100px
-    }
 }
 .col img{
     margin:auto
@@ -142,27 +118,6 @@ img[alt = "profile-1"]{
 .rectangle h1{
     margin:auto
 }
-@media screen and (max-width:716px){
-    .rectangle{
-        width:600px
-    }
-}
-@media screen and (max-width:616px){
-    .rectangle{
-        width:500px
-    }
-}
-@media screen and (max-width:516px){
-    .rectangle{
-        width:400px
-    }
-    input[type = "text"]{
-        width:200px
-    }
-    input[type = "submit"]{
-        width:102px !important
-    }
-}
 input[type = "text"]{
     width:300px;
     padding:15px;
@@ -203,35 +158,21 @@ img[alt = "info"]{
     border-radius:70px;
     padding:10px
 }
-@media screen and (max-width:1199px){
-    .element > div{
-        margin-right:45px !important;
-    }
-    .element .col a{
-        margin:10px
-    }
+img[alt = "stay"]{
+    width:300px
 }
-@media screen and (max-width:991px){
-    .cards{
-        margin:auto
+@media screen and (max-width:516px){
+    .rectangle{
+        width:400px
     }
-    img[alt = "quote"]{
-        left:10px
+    input[type = "text"]{
+        width:200px
     }
-    .element > div{
-        margin-right: 36px !important;
+    input[type = "submit"]{
+        width:102px !important
     }
-    .element .col a{
-        margin:20px
-    }
-}
-@media screen and (max-width:767px){
-    img[alt = "quote"]{
-        left:105px
-    }
-    .element > div {
-        margin-left: 40%;
-        margin-bottom: 20px;
+    *{
+        display:none
     }
 }
 @media screen and (max-width:575px){
@@ -250,5 +191,65 @@ img[alt = "info"]{
     }
     .stay{
         width:350px !important
+    }
+}
+@media screen and (max-width:616px){
+    .rectangle{
+        width:500px
+    }
+}
+@media screen and (max-width:650px){
+    img[alt = "stay"]{
+        width:100px
+    }
+}
+@media screen and (max-width:716px){
+    .rectangle{
+        width:600px
+    }
+}
+@media screen and (max-width:724px){
+    .text_body button{
+        margin:auto auto auto 30%;
+    }
+}
+@media screen and (max-width:750px){
+    img[alt = "stay"]{
+        width:200px
+    }
+}
+@media screen and (max-width:767px){
+    img[alt = "quote"]{
+        left:105px
+    }
+    .element > div {
+        margin-left: 40%;
+        margin-bottom: 20px;
+    }
+    img[alt = "image_body"]{
+        height:400px;
+        width:350px
+    }
+}
+@media screen and (max-width:991px){
+    .cards{
+        margin:auto
+    }
+    img[alt = "quote"]{
+        left:10px
+    }
+    .element > div{
+        margin-right: 36px !important;
+    }
+    .element .col a{
+        margin:20px
+    }
+}
+@media screen and (max-width:1199px){
+    .element > div{
+        margin-right:45px !important;
+    }
+    .element .col a{
+        margin:10px
     }
 }
