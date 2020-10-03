@@ -207,10 +207,11 @@ img[alt = "stay"]{
         flex-wrap: wrap;
     }
     input[type = "text"]{
-        width:90% !important
+        width:100% !important;
+        display:block
     }
     input[type = "submit"]{
-        width:90% !important
+        width:100% !important
     }
 }
 @media screen and (max-width:616px){
