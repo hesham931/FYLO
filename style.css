@@ -204,9 +204,6 @@ img[alt = "stay"]{
     .stay{
         width:200px !important
     }
-    ._3-cards .row >div{
-        margin-left:130px;
-    }
     .rectangle .p_h1_div p{
         width:350px
     }
@@ -218,7 +215,7 @@ img[alt = "stay"]{
         margin-right:0px
     }
     .rectangle{
-        width:490px !important
+        width:400px !important
     }
 }
 @media screen and (max-width:616px){
