@@ -204,12 +204,6 @@ img[alt = "stay"]{
     .stay{
         width:200px !important
     }
-    .rectangle .p_h1_div p{
-        width:200px
-    }
-    .rectangle .p_h1_div h1{
-        width:250px
-    }
     .input{
         width:400px;
         margin-right:0px
@@ -220,7 +214,13 @@ img[alt = "stay"]{
 }
 @media screen and (max-width:616px){
     .rectangle{
-        width:500px
+        width:490px
+    }
+    .middle_1{
+        flex-wrap: wrap !important;
+    }
+    img[alt = "stay"]{
+        width:300px !important
     }
 }
 @media screen and (max-width:650px){
