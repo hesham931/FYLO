@@ -179,14 +179,8 @@ img[alt = "stay"]{
     ._col_row .row >div{
         margin:50px
     }
-    .text_body h3, .text_body p, .col h3, .col p {
-         text-align: left; 
-    }
     .text_body button{
         margin-left:-5px !important;
-    }
-    h1, h2, h3, h4, h5, h6 {
-        text-align: left;
     }
     .col p {
         width: 200px
