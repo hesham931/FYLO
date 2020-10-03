@@ -183,7 +183,7 @@ img[alt = "stay"]{
          text-align: left; 
     }
     .text_body button{
-        margin-right:10%;
+        margin-right:10% !important;
     }
     h1, h2, h3, h4, h5, h6 {
         text-align: left;
