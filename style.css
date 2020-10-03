@@ -205,17 +205,17 @@ img[alt = "stay"]{
         width:200px !important
     }
     .rectangle .p_h1_div p{
-        width:350px
+        width:200px
     }
     .rectangle .p_h1_div h1{
-        width:420px
+        width:250px
     }
     .input{
         width:400px;
         margin-right:0px
     }
     .rectangle{
-        width:400px !important
+        width:300px !important
     }
 }
 @media screen and (max-width:616px){
