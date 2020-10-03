@@ -171,9 +171,6 @@ img[alt = "stay"]{
     input[type = "submit"]{
         width:102px !important
     }
-    *{
-        display:none
-    }
 }
 @media screen and (max-width:575px){
     .col p {
