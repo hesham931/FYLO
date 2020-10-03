@@ -200,7 +200,8 @@ img[alt = "stay"]{
     }
     .input{
         width:400px;
-        margin-right:0px
+        margin-right:0px;
+        display: block !important;
     }
     .rectangle{
         width:300px !important;
@@ -208,7 +209,8 @@ img[alt = "stay"]{
     }
     input[type = "text"]{
         width:100% !important;
-        display:block
+        display:block;
+        margin-bottom:20px
     }
     input[type = "submit"]{
         width:100% !important
