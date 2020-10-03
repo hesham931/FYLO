@@ -203,7 +203,14 @@ img[alt = "stay"]{
         margin-right:0px
     }
     .rectangle{
-        width:300px !important
+        width:300px !important;
+        flex-wrap: wrap;
+    }
+    input[type = "text"]{
+        width:90% !important
+    }
+    input[type = "submit"]{
+        width:90% !important
     }
 }
 @media screen and (max-width:616px){
