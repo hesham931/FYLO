@@ -219,7 +219,9 @@ img[alt = "stay"]{
         margin-bottom:20px
     }
     input[type = "submit"]{
-        width:50% !important
+        width:50% !important;
+        position:relative;
+        right:100px;
     }
     .middle_1{
         flex-wrap: wrap !important;
