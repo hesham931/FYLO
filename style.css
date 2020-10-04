@@ -193,8 +193,7 @@ img[alt = "stay"]{
         width: 200px
     }
     .element > div {
-        margin-left: 20%;
-        margin-bottom: 20px;
+        margin-bottom: 20px
     }
     .row{
         width:300px
