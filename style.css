@@ -123,8 +123,7 @@ input[type = "text"]{
     padding:15px;
     border:none;
     border-radius:30px;
-    margin-right:30px;
-    display:block !important
+    margin-right:30px
 }
 input[type = "submit"]{
     width:200px;
@@ -177,11 +176,17 @@ img[alt = "stay"]{
     img[alt = "logo"]{
         width:140px
     }
+    .text_body button{
+        margin-left:25px;
+    }
     ._col_row .row >div{
         margin:50px
     }
-    .text_body button{
-        margin-left:25px !important;
+    .text_body h3, .text_body p, .col h3, .col p {
+         text-align: left; 
+    }
+    h1, h2, h3, h4, h5, h6 {
+        text-align: left;
     }
     .col p {
         width: 200px
@@ -201,10 +206,11 @@ img[alt = "stay"]{
     }
     .input{
         width:400px;
-        margin-right:0px
+        margin-right:0px;
+        display: block !important;
     }
     .rectangle{
-        width:300px !important;
+        width:490px !important;
         flex-wrap: wrap;
     }
     input[type = "text"]{
@@ -215,16 +221,16 @@ img[alt = "stay"]{
     input[type = "submit"]{
         width:100% !important
     }
-}
-@media screen and (max-width:616px){
-    .rectangle{
-        width:490px
-    }
     .middle_1{
         flex-wrap: wrap !important;
     }
     img[alt = "stay"]{
         width:300px !important
+    }
+}
+@media screen and (max-width:616px){
+    .rectangle{
+        width:500px
     }
 }
 @media screen and (max-width:650px){
