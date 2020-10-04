@@ -206,12 +206,12 @@ img[alt = "stay"]{
         width:200px !important
     }
     .input{
-        width:300px;
+        width:360px;
         margin-right:0px;
         display: block !important;
     }
     .rectangle{
-        width:300px !important;
+        width:360px !important;
         flex-wrap: wrap;
     }
     input[type = "text"]{
