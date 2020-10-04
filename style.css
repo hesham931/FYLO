@@ -177,7 +177,8 @@ img[alt = "stay"]{
         width:140px
     }
     .text_body button{
-        margin-left:14px;
+        position:relative;
+        right:50px;
     }
     ._col_row .row >div{
         margin:50px
