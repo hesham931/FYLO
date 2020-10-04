@@ -207,7 +207,7 @@ img[alt = "stay"]{
         display: block !important;
     }
     .rectangle{
-        width:90% !important;
+        width:80% !important;
         flex-wrap: wrap;
     }
     input[type = "text"]{
