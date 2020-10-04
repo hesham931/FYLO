@@ -212,7 +212,9 @@ img[alt = "stay"]{
         margin-bottom:20px
     }
     input[type = "submit"]{
-        /*width:50% !important;*/
+        width:50% !important;
+        position:relative;
+        left:-50px
     }
 }
 @media screen and (max-width:616px){
