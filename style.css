@@ -210,7 +210,7 @@ img[alt = "stay"]{
         display: block !important;
     }
     .rectangle{
-        width:490px !important;
+        width:300px !important;
         flex-wrap: wrap;
     }
     input[type = "text"]{
