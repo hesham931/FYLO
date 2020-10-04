@@ -173,6 +173,9 @@ img[alt = "stay"]{
     }
 }
 @media screen and (max-width:575px){
+    *{
+        over-flow:none
+    }
     img[alt = "logo"]{
         width:140px
     }
