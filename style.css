@@ -255,10 +255,6 @@ img[alt = "stay"]{
     img[alt = "quote"]{
         left:105px
     }
-    .element > div {
-        margin-left: 40%;
-        margin-bottom: 20px;
-    }
     img[alt = "image_body"]{
         height:400px;
         width:350px
@@ -278,5 +274,11 @@ img[alt = "stay"]{
 @media screen and (max-width:1199px){
     .element .col a{
         margin:10px
+    }
+    .info{
+        display:flex;
+        justify-content:center;
+        margin:auto;
+        text-align:center;
     }
 }
