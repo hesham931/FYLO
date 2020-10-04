@@ -192,9 +192,6 @@ img[alt = "stay"]{
     .col p {
         width: 200px
     }
-    .col_end {
-        margin-left: 20% !important
-    }
     .element > div {
         margin-left: 20%;
         margin-bottom: 20px;
@@ -274,17 +271,11 @@ img[alt = "stay"]{
     img[alt = "quote"]{
         left:10px
     }
-    .element > div{
-        margin-right: 36px !important;
-    }
     .element .col a{
         margin:20px
     }
 }
 @media screen and (max-width:1199px){
-    .element > div{
-        margin-right:45px !important;
-    }
     .element .col a{
         margin:10px
     }
