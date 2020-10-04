@@ -208,14 +208,12 @@ img[alt = "stay"]{
         flex-wrap: wrap;
     }
     input[type = "text"]{
-        width:50% !important;
-        display:block;
+        width:100% !important;
+        display: block;
         margin-bottom:20px
     }
     input[type = "submit"]{
-        width:50% !important;
-        position:relative;
-        left:-50px
+        width:100% !important
     }
 }
 @media screen and (max-width:616px){
