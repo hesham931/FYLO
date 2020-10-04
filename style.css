@@ -200,8 +200,7 @@ img[alt = "stay"]{
     }
     .input{
         width:400px;
-        margin-right:0px;
-        display: block !important;
+        margin-right:0px
     }
     .rectangle{
         width:300px !important;
@@ -213,8 +212,7 @@ img[alt = "stay"]{
         margin-bottom:20px
     }
     input[type = "submit"]{
-        width:50% !important;
-        margin-left:0px !important
+        /*width:50% !important;*/
     }
 }
 @media screen and (max-width:616px){
