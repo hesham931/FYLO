@@ -225,6 +225,9 @@ img[alt = "stay"]{
     img[alt = "stay"]{
         width:300px !important
     }
+    .col_end{
+    margin-left:0% !important
+}
 }
 @media screen and (max-width:616px){
     .rectangle{
